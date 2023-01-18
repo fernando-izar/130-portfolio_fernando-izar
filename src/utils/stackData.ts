@@ -11,45 +11,26 @@ import { SiThreedotjs, SiPython, SiDjango, SiMaterialui, SiPostgresql, SiJira, S
 import { DiSqllite, DiScrum } from "react-icons/di";
 
 export const stackData = [
-  {
-    title: "HTML",
-    img: imgHTML,
-  },
-  {
-    title: "CSS",
-    img: imgCSS,
-  },
-  {
-    title: "JS",
-    img: imgJS,
-  },
-  {
-    title: "Node JS",
-    img: imgNode,
-  },
-  {
-    title: "Styled Components",
-    img: imgStyled,
-  },
-  {
-    title: "React",
-    img: imgReact,
-  },
-  // { title: "Vuejs", img: FaVuejs },
+  { title: "React",img: imgReact },
+  { title: "JS", img: imgJS },
   { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
+  { title: "HTML", img: imgHTML},
+  { title: "CSS", img: imgCSS },
   { title: "THREE.js", img: SiThreedotjs },
   { title: "Python", img: SiPython },
+  { title: "Node JS",img: imgNode },
+  { title: "Docker", img: FaDocker },
   { title: "Django", img: SiDjango },
-  { title: "Material UI", img: SiMaterialui },
+  { title: "AWS", img: FaAws },
   { title: "Git", img: FaGitAlt },
+  { title: "Linux", img: FaLinux },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "SQLite", img: DiSqllite },
+  { title: "Styled Components", img: imgStyled },
+  { title: "Material UI", img: SiMaterialui },
   { title: "Scrum", img: DiScrum },
-  { title: "AWS", img: FaAws },
   { title: "Jira", img: SiJira },
   { title: "Trello", img: SiTrello },
-  { title: "Linux", img: FaLinux },
 
 
 ];
