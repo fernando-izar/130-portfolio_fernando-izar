@@ -6,7 +6,6 @@ import { Button } from "@/styles/Buttons";
 // Components
 import { Stack } from "@/components/Stack";
 import { Project } from "@/components/Project";
-// import { AboutMe } from "@/components/AboutMe";
 
 // Data
 import { stackData } from "@/utils/stackData";
@@ -23,7 +22,6 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
-  AboutMe,
 } from "./style";
 
 
@@ -47,9 +45,6 @@ export const Home = (): JSX.Element => {
               </Button>
               <Button as="a" href="#tecnologias" type="btLink" color="grey5">
                 Tecnologias
-              </Button>
-              <Button as="a" href="#sobreMim">
-                Sobre mim
               </Button>
             </HeaderButtonsArea>
           </HeaderContent>
@@ -105,28 +100,6 @@ export const Home = (): JSX.Element => {
           </ProjectAreaWrapperColumns>
         </Container>
       </ProjectsArea>
-      <AboutMe id="sobreMim"> 
-        <Container>
-          <Text as="h3" type="heading2" color="grey1">
-            Um pouco sobre mim ...
-          </Text>
-          <Text type="body1" color="grey2">
-            <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sou desenvolvedor front-end  formado pela Kenzie Academy Brasil e atualmente estou terminando a formação como desenvolvedor fullstack pela mesma instituição. Já atuei como monitor de React + Typescript na Kenzie Academy Brasil.
-            </p>
-            <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na minha carreira como desenvolvedor, tive a oportunidade de participar de projetos interessantes, criei o devduckgame, um jogo criado em React + THREE.js + R3F, e participei como Tech Lead do Alimento Solidário, uma aplicação que facilita o encontro de empresas que querem doar alimentos com instituições que desejam recebê-los. O front-end desta aplicação foi desenvolvido em React + Typescript e o back-end, primeiramente em node.js + express e depois em Django, o primeiro deployado na Heroku e o segundo na AWS. Utilizamos também o docker tanto para o desenvolvimento quanto para produção.
-            </p>  
-            <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Além disso, tive a oportunidade de atuar como Tech Lead em um e-commerce criado em React + Typescript durante o curso de React da MJV School. Também completei o curso de THREE.js + R3F (React Three Fiber) e atualmente estou cursando o Advanced BIM Frontend Course de IFC.js + React + Typescript.
-            </p> 
-            <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sou formado em Engenharia Mecatrônica pela Universidade de São Paulo (USP) e possuo pós-graduação em BIM Management pela University of Barcelona, além de MBA pela Fundação Getúlio Vargas (FGV) e tenho especialização em Design Paramétrico e Programação Visual em BIM.
-            </p>
-          </Text>
-
-        </Container>
-      </AboutMe>
     </main>
   );
 };
