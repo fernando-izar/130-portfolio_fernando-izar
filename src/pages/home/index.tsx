@@ -6,7 +6,6 @@ import { Button } from "@/styles/Buttons";
 // Components
 import { Stack } from "@/components/Stack";
 import { Project } from "@/components/Project";
-// import { AboutMe } from "@/components/AboutMe";
 
 // Data
 import { stackData } from "@/utils/stackData";
