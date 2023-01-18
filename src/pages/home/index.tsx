@@ -67,12 +67,13 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey1">
-                Vamos trocar uma ideia?
+                Vamos conversar?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
+                {/* No linkedIn sempre estou compartilhando meus processos diários
                 para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                algumas ideias por lá */}
+                No linkedIn sempre estou compartilhando meus projetos. Estou disposto a trocar algumas ideias por lá.
               </Text>
               <Button
                 type="primary"

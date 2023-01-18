@@ -63,6 +63,8 @@ export const ProjectsAreaSocialMediaMessage = styled("aside", {
   gap: "2rem",
   position: "sticky",
   top: "10rem",
+  // backgroundColor: "$grey5",
+
 
   "@mobile": {
     width: "100%",
@@ -74,6 +76,9 @@ export const ProjectsAreaSocialMediaMessage = styled("aside", {
 
 export const ProjectsAreaContent = styled("div", {
   width: "60%",
+  // backgroundColor: "$grey5",
+
+  
   paddingLeft: "4rem",
   "@mobile": {
     width: "100%",
@@ -83,6 +88,7 @@ export const ProjectsAreaContent = styled("div", {
 
 export const ProjectAreaWrapperColumns = styled(Flex, {
   position: "relative",
+
   alignItems: "flex-start",
   "@mobile": {
     flexDirection: "column",
