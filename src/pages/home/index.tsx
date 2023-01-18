@@ -32,7 +32,7 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+              Soluções por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
               Sou desenvolvedor full stack formado na Kenzie Academy Brasil, participei
