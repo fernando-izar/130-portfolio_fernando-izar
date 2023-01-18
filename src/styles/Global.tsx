@@ -65,12 +65,15 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
     colors: {
 
       // main header
-      brand1: "#5C63ED",
+      // brand1: "#5C63ED",
       // brand1: "#2C4E31",
+      brand1: '#cf5825',
 
 
 
+      // brand2: "#7D82F1",
       brand2: "#7D82F1",
+
 
 
       brand3: "#BEC1F8",
@@ -85,11 +88,14 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
 
 
       grey2: "#495057",
+
       grey3: "#CED3D7",
 
       // background of icons
-      grey4: "#F1F3F5",
+      // grey4: "#F1F3F5",
       // grey4: "#BEF2F1",
+      grey4: "#6f8d9d",
+
 
 
       grey5: "#F8F9FA",
@@ -98,8 +104,10 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
       grey6: "#DEE0FB",
 
       // icons
-      whiteFixed: "#ffffff",
+      // whiteFixed: "#ffffff",
       // whiteFixed: "#F1F3F5",
+      whiteFixed: "#f4ccc9",
+
 
 
       // header
