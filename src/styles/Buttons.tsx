@@ -37,7 +37,7 @@ export const Button = styled('button', {
                 borderColor: "$grey5",
                 backgroundColor: "transparent",
                 "&:hover": {
-                    backgroundColor: "$grey5",
+                    backgroundColor: "$brand2",
                 }
             },
             circle: {

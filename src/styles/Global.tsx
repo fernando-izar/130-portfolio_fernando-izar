@@ -69,23 +69,17 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
       // brand1: "#2C4E31",
       brand1: '#cf5825',
 
-
-
+      // hover color of buttons "Falar no Whatsapp e Acessar Perfil no Linkedin"
       // brand2: "#7D82F1",
-      brand2: "#7D82F1",
-
-
+      brand2: "#6f8d9d",
 
       brand3: "#BEC1F8",
 
-
       brand4: "#E7E8FC",
 
-
-      grey1: "#212529",
+      // main text
       // grey1: "#2C4E31",
-
-
+      grey1: "#212529",
 
       grey2: "#495057",
 
@@ -97,16 +91,17 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
       grey4: "#6f8d9d",
 
 
-
+      // text "soluções por meio da tecnologia"
       grey5: "#F8F9FA",
+      // grey5: "#6f8d9d",
 
       
       grey6: "#DEE0FB",
 
       // icons
-      // whiteFixed: "#ffffff",
+      whiteFixed: "#ffffff",
       // whiteFixed: "#F1F3F5",
-      whiteFixed: "#f4ccc9",
+      // whiteFixed: "#f4ccc9",
 
 
 
