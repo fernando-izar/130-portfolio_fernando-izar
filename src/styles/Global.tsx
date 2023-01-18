@@ -65,34 +65,35 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
     colors: {
 
       // main header
-      brand1: "#5C63ED",
+      // brand1: "#5C63ED",
       // brand1: "#2C4E31",
+      brand1: '#cf5825',
 
-
-
-      brand2: "#7D82F1",
-
+      // hover color of buttons "Falar no Whatsapp e Acessar Perfil no Linkedin"
+      // brand2: "#7D82F1",
+      brand2: "#6f8d9d",
 
       brand3: "#BEC1F8",
 
-
       brand4: "#E7E8FC",
 
-
-      grey1: "#212529",
+      // main text
       // grey1: "#2C4E31",
-
-
+      grey1: "#212529",
 
       grey2: "#495057",
+
       grey3: "#CED3D7",
 
       // background of icons
-      grey4: "#F1F3F5",
+      // grey4: "#F1F3F5",
       // grey4: "#BEF2F1",
+      grey4: "#6f8d9d",
 
 
+      // text "soluções por meio da tecnologia"
       grey5: "#F8F9FA",
+      // grey5: "#6f8d9d",
 
       
       grey6: "#DEE0FB",
@@ -100,6 +101,8 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
       // icons
       whiteFixed: "#ffffff",
       // whiteFixed: "#F1F3F5",
+      // whiteFixed: "#f4ccc9",
+
 
 
       // header
