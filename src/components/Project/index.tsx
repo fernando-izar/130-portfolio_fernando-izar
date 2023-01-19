@@ -18,6 +18,7 @@ interface ReposType {
   description: string;
   git_url: string;
   homepage: string;
+  clone_url: string;
 }
 
 export const Project = (): JSX.Element => {
@@ -70,7 +71,7 @@ export const Project = (): JSX.Element => {
             {repository.description}
           </Text>
           <ProjectLinks>
-            <ProjectLink target="_blank" href={repository.git_url}>
+            <ProjectLink target="_blank" href={repository.clone_url}>
               <FaGithub /> Github Code
             </ProjectLink>
             {repository.homepage && (
