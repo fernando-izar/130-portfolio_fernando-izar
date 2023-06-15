@@ -111,7 +111,7 @@ export const Home = (): JSX.Element => {
           </Text>
           <Text type="body1" color="grey2">
             <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sou desenvolvedor front-end  formado pela Kenzie Academy Brasil e atualmente estou terminando a formação como desenvolvedor fullstack pela mesma instituição. Já atuei como monitor de React + Typescript na Kenzie Academy Brasil.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sou desenvolvedor front-end  formado pela Kenzie Academy Brasil e atualmente trabalho como desenvolvedor Full Stack. Já atuei como monitor de React + Typescript na Kenzie Academy Brasil.
             </p>
             <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na minha carreira como desenvolvedor, tive a oportunidade de participar de projetos interessantes, criei o devduckgame, um jogo criado em React + THREE.js + R3F, e participei como Tech Lead do Alimento Solidário, uma aplicação que facilita o encontro de empresas que querem doar alimentos com instituições que desejam recebê-los. O front-end desta aplicação foi desenvolvido em React + Typescript e o back-end, primeiramente em node.js + express e depois em Django, o primeiro deployado na Heroku e o segundo na AWS. Utilizamos também o docker tanto para o desenvolvimento quanto para produção.
